@@ -1,0 +1,80 @@
+<div class="bill">
+    <div class="top">
+        <div class="search">
+            <span class="material-symbols-sharp">search</span>
+            <input type="search" placeholder="Tìm kiếm">
+        </div>
+    </div>
+    <div class="main-container">
+        <h1>Quản lý hóa đơn </h1>
+        <div class="table-data">
+            <h2 class="">Đơn hàng gần đây</h2>
+            <div class="table-action">
+                <div class="actions">
+                    <button class="btn active" onclick="Bills.setEventButtonShowAllBill(this)">
+                        <span class="material-symbols-sharp">visibility</span>
+                        Danh sách tất cả
+                    </button>
+                    <button class="btn" onclick="Bills.setEventButtonShowPending(this)">
+                        <span class="material-symbols-sharp">pending</span>
+                        Đang chờ duyệt
+                    </button>
+                    <button class="btn" onclick="Bills.setEventButtonShowBillBig(this)">
+                        <span class="material-symbols-sharp">money</span>
+                        Đơn hàng lớn
+                    </button>
+                </div>
+                <div class="table-search">
+                    <div class="search">
+                        <span class="material-symbols-sharp">search</span>
+                        <input type="search" placeholder="Tìm kiếm">
+                    </div>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mã đơn hàng</th>
+                        <th>Tên khách hàng</th>
+                        <th>Số điện thoại</th>
+                        <th>Thanh toán</th>
+                        <th>Ngày</th>
+                        <th>Trạng thái</th>
+                        <th>Chi tiết</th>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody id="tbody_bill">
+                    <tr class="tr_row_template d-none">
+                        <td class="id">
+                            <span data-item="id"></span>
+                        </td>
+                        <td class="customer_id">
+                            <span data-item="customer_id"></span>
+                        </td>
+                        <td class="customer_phone">
+                            <span data-item="customer_phone"></span>
+                        </td>
+                        <td class="total_money">
+                            <span data-item="total_money"></span>
+                        </td>
+                        <td class="time">
+                            <span data-item="time"></span>
+                        </td>
+                        <td class="status">
+                            <span data-item="status"></span>
+                        </td>
+                        <td class="primary detail">Details</td>
+                        <td class="actions">
+                            <span class="material-symbols-sharp action-object delete">delete</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="paging">
+                <a href="#">Hiển thị tất cả</a>
+                <div class="pages"></div>
+            </div>
+        </div>
+    </div>
+</div>

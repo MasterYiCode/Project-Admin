@@ -1,0 +1,116 @@
+/* TOAST NOTIFICATION */
+
+:root {
+    --success: rgb(0, 128, 0);
+    --warning: rgb(203, 181, 16);
+    --error: rgb(244, 16, 16);
+    --success-light: rgba(0, 128, 0, 0.7);
+    --warning-light: rgba(203, 181, 16, 0.7);
+    --error-light: rgba(244, 16, 16, 0.7);
+}
+
+#toast {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 99999;
+}
+
+.toast {
+    padding: 18px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    animation: slide_show 1s ease forwards;
+    margin-top: 10px;
+    z-index: 99999;
+}
+
+.toast .countdown {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom-left-radius: 6px;
+    background-color: var(--success);
+    animation: countdown 1s ease forwards;
+}
+
+.toast.success {
+    border-left: 6px solid var(--success);
+    background-color: var(--success-light);
+}
+
+.toast.warning {
+    border-left: 6px solid var(--warning);
+    background-color: var(--warning-light);
+}
+
+.toast.error {
+    border-left: 6px solid var(--error);
+    background-color: var(--error-light);
+}
+
+.toast.success .countdown {
+    background-color: var(--success);
+}
+
+.toast.warning .countdown {
+    background-color: var(--warning);
+}
+
+.toast.error .countdown {
+    background-color: var(--error);
+}
+
+.message {
+    display: inline-block;
+    min-width: 150px;
+}
+
+.success__icon {
+    color: var(--success);
+}
+
+@keyframes countdown {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+@keyframes slide_show {
+    0% {
+        transform: translateX(100%);
+    }
+    25% {
+        transform: translateX(-10%);
+    }
+    50% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-10%);
+    }
+}
+
+@keyframes slide_hide {
+    0% {
+        transform: translateX(-10%);
+    }
+    25% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-10%);
+    }
+    100% {
+        transform: translateX(200%);
+    }
+}

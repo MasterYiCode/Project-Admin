@@ -1,0 +1,610 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/cap-3-dau-lightning-type-c-micro-evalu-spanker-b2-avatar-1-600x600.webp",
+      "name": "Cáp 3 đầu eValu Spanker",
+      "star": 4,
+      "price": 220000,
+      "selled": 9,
+      "supplier": "Apple",
+      "status": true,
+      "quantity": 100
+    },
+    {
+      "id": 4,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/197862-600x600.webp",
+      "name": "Xmobile Gram 4",
+      "star": 4,
+      "price": 450000,
+      "selled": 163,
+      "supplier": "Apple",
+      "status": true,
+      "quantity": 100
+    },
+    {
+      "id": 5,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": true,
+      "quantity": 100
+    },
+    {
+      "id": 6,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 7,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 8,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 9,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 10,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "name": "Xmobile Gram 4 Dull Dog",
+      "supplier": "Apple 11",
+      "price": "420000",
+      "quantity": "100",
+      "id": 11
+    },
+    {
+      "id": 12,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 13,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 14,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 15,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 16,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 17,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 18,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 19,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 20,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 21,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 22,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 23,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 24,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 25,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 26,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 27,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 28,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 29,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 30,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 32,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 33,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 34,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 35,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 36,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 37,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 38,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 39,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "id": 40,
+      "frame": "../assets/image/flashsale/frame_1.webp",
+      "img": "../assets/image/flashsale/pin-sac-du-phong-10000mah-xmobile-gram-4-dull-dog-avatar-1-600x600.webp",
+      "name": "Xmobile Gram 4 Dull Dog",
+      "star": 4,
+      "price": 420000,
+      "selled": 148,
+      "supplier": "Apple",
+      "status": false,
+      "quantity": 100
+    },
+    {
+      "name": "1",
+      "supplier": "1",
+      "price": "1",
+      "quantity": "1",
+      "id": 41
+    },
+    {
+      "name": "aaaaa",
+      "supplier": "1",
+      "price": "1",
+      "quantity": "1",
+      "id": 42
+    }
+  ],
+  "bills": [
+    {
+      "customer_id": 10,
+      "products": [
+        {
+          "id": 1,
+          "price": 420000,
+          "quantity": 10
+        },
+        {
+          "id": 2,
+          "price": 420000,
+          "quantity": 10
+        }
+      ],
+      "total_money": 8400000,
+      "time": "09/06/2022",
+      "status": "success",
+      "id": 1
+    },
+    {
+      "customer_id": 6,
+      "products": [
+        {
+          "id": 1,
+          "price": 420000,
+          "quantity": 10
+        },
+        {
+          "id": 2,
+          "price": 420000,
+          "quantity": 10
+        }
+      ],
+      "total_money": 8400000,
+      "time": "09/06/2022",
+      "status": "success",
+      "id": 3
+    },
+    {
+      "customer_id": 10,
+      "products": [
+        {
+          "id": 1,
+          "price": 420000,
+          "quantity": 10
+        },
+        {
+          "id": 2,
+          "price": 420000,
+          "quantity": 10
+        }
+      ],
+      "total_money": 8400000,
+      "time": "09/06/2022",
+      "status": "success",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Đỗ Chí Hùng",
+      "phone": "0976580418",
+      "type": "admin"
+    },
+    {
+      "id": 6,
+      "name": "Đỗ Thị Tươi",
+      "phone": "0979169997",
+      "type": "customer"
+    },
+    {
+      "id": 7,
+      "name": "Đỗ Chí Hùng",
+      "phone": "0976580418",
+      "type": "admin"
+    },
+    {
+      "id": 9,
+      "name": "Đỗ Tràng Dũng",
+      "phone": "0979199779",
+      "type": "customer"
+    },
+    {
+      "id": 10,
+      "name": "Đỗ Tràng Thọ",
+      "phone": "0999999789",
+      "type": "customer"
+    },
+    {
+      "id": 11,
+      "name": "Đỗ Thị Tươi",
+      "phone": "0979169997",
+      "type": "customer"
+    },
+    {
+      "id": 12,
+      "name": "Đỗ Tràng Thọ",
+      "phone": "0999999789",
+      "type": "customer"
+    },
+    {
+      "id": 13,
+      "name": "Đỗ Thị Tươi",
+      "phone": "0979169997",
+      "type": "customer"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "account_name": "admin",
+      "password": "1"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "account_name": "dochihoa",
+      "password": "1"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "account_name": "dothithi",
+      "password": "1"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "account_name": "dotrangdung",
+      "password": "1"
+    },
+    {
+      "id": 5,
+      "user_id": 5,
+      "account_name": "dotrangtho",
+      "password": "1"
+    },
+    {
+      "id": 6,
+      "user_id": 6,
+      "account_name": "dothituoi",
+      "password": "1"
+    },
+    {
+      "id": 7,
+      "user_id": 7,
+      "account_name": "dothilinh",
+      "password": "1"
+    }
+  ]
+}

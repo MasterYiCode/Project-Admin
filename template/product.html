@@ -1,0 +1,112 @@
+<div class="bill">
+    <div class="top">
+        <div class="search">
+            <span class="material-symbols-sharp">search</span>
+            <input type="search" placeholder="Tìm kiếm">
+        </div>
+    </div>
+    <div class="main-container">
+        <h1>Quản lý sản phẩm</h1>
+        <div class="table-data">
+            <h2 class="">Danh sách sản phẩm</h2>
+            <div class="table-action">
+                <div class="actions">
+                    <button class="btn" onclick="Product.setEventButtonAddProduct()">
+                        <span class="material-symbols-sharp">add</span>
+                        Thêm sản phẩm
+                    </button>
+                </div>
+                <div class="table-search">
+                    <div class="search">
+                        <span class="material-symbols-sharp">search</span>
+                        <input type="search" placeholder="Tìm kiếm">
+                    </div>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mã sản phẩm</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Nhà cung cấp</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tbody_product">
+                    <tr class="tr_row_template d-none">
+                        <td class="id">
+                            <span data-item="id"></span>
+                        </td>
+                        <td class="name">
+                            <span data-item="name"></span>
+                        </td>
+                        <td class="supplier">
+                            <span data-item="supplier"></span>
+                        </td>
+                        <td class="price">
+                            <span data-item="price"></span>
+                        </td>
+                        <td class="quantity">
+                            <span data-item="quantity"></span>
+                        </td>
+                        <td class="actions">
+                            <span class="material-symbols-sharp action-object delete">delete</span>
+                            <span class="material-symbols-sharp action-object edit">edit</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="paging">
+                <a href="#">Hiển thị tất cả</a>
+                <div class="pages"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-body">
+            <div class="form">
+                <div class="form-top">
+                    <h2>Thông tin sản phẩm</h2>
+                    <span class="material-symbols-sharp close" onclick="Product.setEventClose()">close</span>
+                </div>
+                <form action="#" id="form_product_info">
+                    <div class="form-product">
+                        <label class="form-lable" for="code-product">
+                            <span>Mã sản phẩm</span> 
+                            <input autocomplete="off" class="form-input" type="text" name="id" id="id-product" placeholder="Nhập mã sản phẩm" disabled>
+                        </label>
+                        <label class="form-lable" for="name-product">
+                            <span>Tên sản phẩm</span> 
+                            <input autocomplete="off" class="form-input" type="text" name="name" id="name-product" placeholder="Nhập tên sản phẩm">
+                        </label>
+                        <label class="form-lable" for="supplier-product">
+                            <span>Nhà cung cấp</span> 
+                            <input autocomplete="off" class="form-input" type="text" name="supplier" id="supplier-product" placeholder="Nhà cung cấp">
+                        </label>
+                        <label class="form-lable" for="price-product">
+                            <span>Giá</span> 
+                            <input autocomplete="off" class="form-input" type="number" name="price" id="price-product" placeholder="Nhập giá">
+                        </label>
+                        <label class="form-lable" for="quantity-product">
+                            <span>Số lượng</span> 
+                            <input autocomplete="off" class="form-input" type="number" name="quantity" id="quantity-product" placeholder="Nhập số lượng">
+                        </label>
+                    </div>
+                </form>
+                <div class="form__action">
+                    <button class="btn btn-close-form" onclick="Product.setEventClose()">
+                        <span class="material-symbols-sharp">close</span>
+                        Thoát
+                    </button>
+                    <button class="btn btn-confirm-form">
+                        <span class="material-symbols-sharp">add</span>
+                        Thêm
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

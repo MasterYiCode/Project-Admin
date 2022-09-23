@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/assets/">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+    <title>Đỗ Chí Hùng</title>
+    <!-- MATERIAL CDN -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/toast.css">
+    <link rel="stylesheet" href="css/message.css">
+
+    <!-- FONT FAMILY -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="font/font-awesome-pro-5/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="/assets/images/logo.png" alt="">
+                    <h2>ADMIN<span>HD3V</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#" class="sidebar-item active" data-page="dashboard">
+                    <span class="material-symbols-sharp">grid_view</span>
+                    <h3>Trang chủ</h3>
+                </a>
+                <a href="#" class="sidebar-item" data-page="user">
+                    <span class="material-symbols-sharp">person_outline</span>
+                    <h3>Người dùng</h3>
+                </a>
+                <a href="#" class="sidebar-item" data-page="bill">
+                    <span class="material-symbols-sharp">receipt_long</span>
+                    <h3>Đơn hàng</h3>
+                </a>
+                <a href="#" class="sidebar-item">
+                    <span class="material-symbols-sharp">insights</span>
+                    <h3>Phân tích</h3>
+                </a>
+                <a href="#" class="sidebar-item" data-page="message">
+                    <span class="material-symbols-sharp">mail_outline</span>
+                    <h3>Tin nhắn</h3>
+                    <span class="message-count">26</span>
+                </a>
+                <a href="#" class="sidebar-item" data-page="product">
+                    <span class="material-symbols-sharp">inventory</span>
+                    <h3>Sản phẩm</h3>
+                </a>
+                <a href="#" class="sidebar-item">
+                    <span class="material-symbols-sharp">report_gmailerrorred</span>
+                    <h3>Báo cáo</h3>
+                </a>
+                <a href="#" class="sidebar-item">
+                    <span class="material-symbols-sharp">settings</span>
+                    <h3>Cài đặt</h3>
+                </a>
+                <a href="#" class="sidebar-item">
+                    <span class="material-symbols-sharp">add</span>
+                    <h3>Thêm sản phẩm</h3>
+                </a>
+                <a href="#" class="sidebar-item">
+                    <span class="material-symbols-sharp">logout</span>
+                    <h3>Thoát</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- -------------- END OF ASIDE  -------------- -->
+        <main>
+
+        </main>
+        <!-- -------------- END OF MAIN  -------------- -->
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-symbols-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-symbols-sharp active">light_mode</span>
+                    <span class="material-symbols-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Đỗ Chí Hùng</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="/assets/images/profile-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- -------------- END OF TOP -------------- -->
+            <div class="recent-updates">
+                <h2>Cập nhật gần đây</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="/assets/images/profile-2.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Đỗ Chí Hùng</b> đã duyệt đơn hàng mã HUNGDEV101 thành công</p>
+                            <small class="text-muted">2 phút trước</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="/assets/images/profile-3.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Đỗ Chí Hùng</b> đã duyệt đơn hàng mã HUNGDEV101 thành công</p>
+                            <small class="text-muted">2 phút trước</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="/assets/images/profile-4.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Đỗ Chí Hùng</b> đã duyệt đơn hàng mã HUNGDEV101 thành công</p>
+                            <small class="text-muted">2 phút trước</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------- END OF RECENT UPDATES  -------------- -->
+            <div class="sales-analytics">
+                <h2>Phân tích bán hàng</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-symbols-sharp">shopping_cart</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>ĐƠN HÀNG ONLINE</h3>
+                            <small class="text-muted">24 giờ qua</small>
+                        </div>
+                        <h5 class="success">+39%</h5>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-symbols-sharp">local_mall</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>ĐƠN HÀNG OFFLINE</h3>
+                            <small class="text-muted">24 giờ qua</small>
+                        </div>
+                        <h5 class="danger">-17%</h5>
+                        <h3>1100</h3>
+                    </div>
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-symbols-sharp">person</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Khách hàng mới</h3>
+                            <small class="text-muted">24 giờ qua</small>
+                        </div>
+                        <h5 class="success">+25%</h5>
+                        <h3>849</h3>
+                    </div>
+                </div>
+                <div class="item add-product">
+                    <div>
+                        <span class="material-symbols-sharp">add</span>
+                        <h3>Thêm sản phẩm</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="toast">
+        <!-- <div class="toast success">
+            <i class="fa-solid fa-circle-check"></i>
+            <span class="message">Success message</span>
+            <span class="countdown"></span>
+        </div> -->
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="js/crud.js"></script>
+    <script src="js/request.js"></script>
+    <script src="js/const.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

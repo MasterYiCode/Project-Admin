@@ -1,0 +1,70 @@
+<div class="user">
+    <div class="top">
+        <div class="search">
+            <span class="material-symbols-sharp">search</span>
+            <input type="search" placeholder="Tìm kiếm">
+        </div>
+    </div>
+    <div class="main-container">
+        <h1>Quản lý người dùng</h1>
+        <div class="table-data">
+            <h2 class="">Danh sách người dùng</h2>
+            <div class="table-action">
+                <div class="actions">
+                    <button class="btn active" type="user" onclick="User.setEventButtonShowAllUser(this)">
+                        <span class="material-symbols-sharp">person</span>
+                        Tất cả người dùng
+                    </button>
+                    <button class="btn" type="admin" onclick="User.setEventButtonShowAdmins(this)">
+                        <span class="material-symbols-sharp">admin_panel_settings</span>
+                        Admin
+                    </button>
+                    <button class="btn" type="customer" onclick="User.setEventButtonShowCustomers(this)">
+                        <span class="material-symbols-sharp">person</span>
+                        Khách hàng
+                    </button>
+                </div>
+                <div class="table-search">
+                    <div class="search">
+                        <span class="material-symbols-sharp">search</span>
+                        <input type="search" placeholder="Tìm kiếm">
+                    </div>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mã</th>
+                        <th>Tên người dùng</th>
+                        <th>Số điện thoại</th>
+                        <th>Loại người dùng</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tbody_user">
+                    <tr class="tr_row_template d-none">
+                        <td class="id">
+                            <span data-item="id"></span>
+                        </td>
+                        <td class="name">
+                            <span data-item="name"></span>
+                        </td>
+                        <td class="phone">
+                            <span data-item="phone"></span>
+                        </td>
+                        <td class="type">
+                            <span data-item="type"></span>
+                        </td>
+                        <td class="actions">
+                            <span class="material-symbols-sharp action-object delete">delete</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="paging">
+                <a href="#">Hiển thị tất cả</a>
+                <div class="pages"></div>
+            </div>
+        </div>
+    </div>
+</div>
